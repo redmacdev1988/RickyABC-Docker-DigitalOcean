@@ -9,39 +9,45 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet" type="text/css">
 </head>
-<nav class="navbar navbar-dark bg-dark navbar-static-top navbar-expand-md">
+
+<body>
+    <nav class="navbar navbar-dark bg-dark navbar-static-top navbar-expand-md">
+        <div class="container">
+            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
+            </button> <a class="navbar-brand" href="#">RickyABC</a>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav mr-auto">
+                    <li class="active nav-item"><a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item"><a href="/waysToLearn" class="nav-link">Ways to learn English</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <div class="container">
+            <h1>Ways to learn English</h1>
+            
+            <br>
+            <p><a class="btn btn-primary btn-lg" href="/waysToLearn" role="button">Learn the methods</a>
+            </p>
+        </div>
+    </div>
     <div class="container">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span>
-        </button> <a class="navbar-brand" href="/">Everything Sharks</a>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav mr-auto">
-                <li class="nav-item"><a href="/" class="nav-link">Home</a>
-                </li>
-                <li class="active nav-item"><a href="/sharks" class="nav-link">Sharks</a>
-                </li>
-            </ul>
+        <div class="row">
+            <div class="col-lg-6">
+                <h3>What works?</h3>
+                <p>Humans learn the fastest by doing. 
+                    We help you do, touch, and digest the learning methods that will help you learn 80% of the English.
+                </p>
+            </div>
+            <div class="col-lg-6">
+                <h3>Why doesn't?</h3>
+                <p>Certain ways of learning English simply does not work. I explain how and why.</p>
+            </div>
         </div>
     </div>
-</nav>
-<div class="jumbotron text-center">
-    <h1>Shark Info</h1>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-lg-6">
-            <p>
-                <div class="caption">Some sharks are known to be dangerous to humans, though many more are not. The sawshark, for example, is not considered a threat to humans.
-                </div>
-                <img src="https://assets.digitalocean.com/articles/docker_node_image/sawshark.jpg" alt="Sawshark">
-            </p>
-        </div>
-        <div class="col-lg-6">
-            <p>
-                <div class="caption">Other sharks are known to be friendly and welcoming!</div>
-                <img src="https://assets.digitalocean.com/articles/docker_node_image/sammy.png" alt="Sammy the Shark">
-            </p>
-        </div>
-    </div>
-</div>
+</body>
 
 </html>
