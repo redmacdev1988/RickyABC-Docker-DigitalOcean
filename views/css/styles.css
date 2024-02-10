@@ -31,7 +31,6 @@ p {
 
 .btn-primary {
     color: #fff;
-    text-color: #000000;
     border-color: white;
     margin-bottom: 5px;
 }
@@ -41,9 +40,4 @@ video,
 audio {
     margin-top: 20px;
     max-width: 80%;
-}
-
-div.caption: {
-    float: left;
-    clear: both;
 }
